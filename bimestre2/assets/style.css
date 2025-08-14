@@ -1,0 +1,515 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1C2326;
+    color: #727372;
+    padding-top: 90px;
+}
+
+.header {
+    z-index: 999;
+    background-color: #0B0C0D;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 110px;
+}
+.bloco{
+    background-color: #727372
+
+}
+
+.header-inner {
+    font-family: 'Libertinus Serif', serif;
+    width: 900px;
+    margin:auto;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 20px;
+    .site-title{
+
+        font-size: 50px;
+        font-weight: 700;
+        color: #594E4D;
+        line-height: 60px;
+        margin-left: 15px;
+        
+    }
+    
+    .nav{
+        font-size: 25px;
+        margin-top: -20px;
+        position: absolute;
+        margin-left: 300px;
+        word-spacing: 40px;
+
+    }
+    
+}
+
+
+.logo {
+    line-height: 90px;
+    margin-top: 20px;
+    margin-left: 170px;
+
+}
+
+.logo-img {
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+    background-image: url(img/yas2.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #594E4D;
+    float: left;
+
+}
+
+.imagem-hero {
+    position: absolute;
+    width: 400px;
+    background-size: cover;
+    height: 400px;
+    border-radius: 30px;
+    background-image: url(img/Yas.jpg);
+    background-position: center;
+    border: 2px solid #594E4D;
+    margin-top: -100px;
+}
+
+
+.nav ul {
+    width: 100%;
+    
+}
+
+.nav li {
+    display: inline-block;
+    transition: color 0.3s;
+    
+}
+
+.nav a {
+    border-radius: 50px;
+    padding-top: 0%;
+    color: #ffffff;
+    font-size: 0.9em;
+    transition: color 0.3s;
+    width:  50px;;
+    height: 30px;
+}
+
+.nav a:hover {
+    color: #594E4D;
+}
+
+
+.content-container {
+    width: 1500px;
+    margin: 0px;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hero-secao {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+
+
+.hero-titulo {    
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Bebas Neue", sans-serif;
+    color: #000000;
+    margin-top: 30px;
+
+    
+}
+.hero-subtitulo{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Bebas Neue", sans-serif;
+    color: #594E4D;
+    margin-top: -10px;
+}
+
+.button {
+    background-color: #2C2125;
+    font-family: "Bebas Neue", sans-serif;
+    color: #727372;
+    padding: 12px 25px;
+    border: 1px solid #2C2125;
+    border-radius: 5px;
+    font-weight: 800px;
+    transition: background-color 0.3s;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -70px;
+}
+
+.button:hover {
+    background-color: #594E4D;
+    color: #0B0C0D;
+}
+
+
+
+#curiosidades, #causos, #portfolio, #rotina {
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+
+}
+
+h4{
+    margin-top: 00px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    font-family: 'Libertinus Serif', serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: #594E4D;
+
+}
+#causos{
+    margin-top: 750px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    font-family: 'Libertinus Serif', serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: #594E4D;
+
+}
+h2 {
+    font-family: 'Libertinus Serif', serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: #594E4D;
+}
+
+
+.h4 p{
+    color: #727372;
+    padding:  50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Libertinus Serif', serif;
+}
+#causos p {
+    color: #727372;
+    padding:  50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Libertinus Serif', serif;
+}
+
+
+
+
+
+#curiosidades{
+    margin-top: 0px;
+    position: relative;
+
+
+}
+.curiosidade-item h3 {
+    font-family: 'Libertinus Serif', serif;
+    color: #594E4D;
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+
+
+.curiosidade-texto1{
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 800px;
+    background-color: #0B0C0D;
+    border-radius: 8px;
+
+}
+
+.curiosidade-texto2{
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    border-radius: 8px;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 800px;
+    background-color: #0B0C0D;
+
+}
+
+.curiosidade-texto3{
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    border-radius: 8px;
+    position: absolute;
+    margin-top: 279px;
+    margin-left: 800px;
+    background-color: #0B0C0D;
+}
+
+.curiosidade-texto4{
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    position: absolute;
+    margin-top: 388px;
+    margin-left: 800px;
+    background-color: #0B0C0D;
+}
+
+.curiosidade-texto5{
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    border-radius: 8px;
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 800px;
+    background-color: #0B0C0D;
+}
+
+
+curiosidades-conteiner{
+    position: relative;
+    margin-top: 10px;
+    margin-right: 100px;
+
+}
+
+.curiosidade-imagem1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/Livro.jpg);
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: 40px;
+    background-color: #727372;
+
+    
+}
+.curiosidade-imagem2 {
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/yas4.jpg);
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: 250px;
+    background-color: #727372;
+}
+.curiosidade-imagem3 {
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/yas5.jpg);
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;;
+    margin-top: 460px;
+    background-color: #727372;
+    
+}
+.sobre {
+    text-align: center; 
+}
+
+
+/* Seção Portfólio (Galeria de Imagens) */
+#portfolio {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.Cards {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.Card1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/yas3.jpg);
+    width: 220px;
+    height: 300px;
+    background-color: #0B0C0D;
+    border: 1px solid #594E4D;
+    border-radius: 8px;
+    float: left;
+    margin-left: 12%;
+    margin-top: 30px;
+}
+.Card2 {
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/presentes.jpg);
+    width: 220px;
+    height: 300px;
+    background-color: #0B0C0D;
+    border: 1px solid #594E4D;
+    border-radius: 8px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+.Card3 {
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/Astro.jpg);
+    width: 220px;
+    height: 300px;
+    background-color: #0B0C0D;
+    border: 1px solid #594E4D;
+    border-radius: 8px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+.Card4 {
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/cachorro.png);
+    width: 220px;
+    height: 300px;
+    background-color: #0B0C0D;
+    border: 1px solid #594E4D;
+    border-radius: 8px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+
+
+/* Seção Rotina (Tabela) */
+#rotina {
+    padding-top: 30px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.rotina-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #0B0C0D;
+    border-radius: 8px;
+    border: 1px solid #1C2326;
+    margin-top: 50px;
+}
+
+.rotina-table th,
+.rotina-table td {
+    padding: 15px;
+    border: 1px solid #1C2326;
+    text-align: center;
+    font-size: 0.95em;
+    color: #727372;
+}
+
+.rotina-table th {
+    background-color: #2C2125;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* Footer */
+.footer {
+
+    background-color: #0B0C0D;
+    color: #fff;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+.footer-inner {
+
+    width: 900px;
+    margin: 0 auto;
+    padding: 80px;
+    height: 50px;
+}
+
+.footer-column {
+
+    margin-left: 60px;
+    width: 300px;
+    display: inline-block;
+}
+
+.footer-column:last-child {
+    text-align: center;
+    float: right;
+    text-align: right;
+    display: inline-block;
+}
+
+.footer-title {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    float: center;
+}
+
+.site-map ul {
+    margin-left: -350px;
+    width: 100%;
+    margin-top: -190px;
+
+
+}
+
+.site-map li {
+    display: inline-block;
+
+}
+.site-map a {
+    width: 100%;
+    color: #727372;
+    font-size: 20px;
+    transition: color 0.3s;
+    padding-right: -50px;
+}
+
+.site-map a:hover {
+    color: #594E4D;
+}
+
+.social-icons a {
+    color: #fff;
+    position: relative;
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
